@@ -1,5 +1,5 @@
 ---
-- hosts: webservers 
+- hosts: wp 
   become: True
   tasks:
     - name: Install packages
